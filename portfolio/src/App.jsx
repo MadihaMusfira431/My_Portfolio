@@ -1,3 +1,4 @@
+import profilePic from "./assets/madihaa.png";
 function App() {
   return (
 <div className="bg-black min-h-screen text-white overflow-hidden relative">
@@ -62,16 +63,23 @@ function App() {
           <p className="text-gray-400 text-lg mb-8">
             Exploring software development, data analysis, and modern technologies to build efficient, scalable, and user-focused solutions.         
              </p>
+             
 
           <div className="flex flex-wrap gap-4">
 
-  <button className="bg-purple-600 hover:scale-105 hover:bg-purple-700 px-6 py-3 rounded-xl font-semibold transition duration-300 shadow-lg shadow-purple-500/30">
-    View Work
-  </button>
+    <a
+  href="#projects"
+  className="bg-purple-600 hover:scale-105 hover:bg-purple-700 px-6 py-3 rounded-xl font-semibold transition duration-300 shadow-lg shadow-purple-500/30"
+>
+  View Work
+</a>
 
-  <button className="border border-purple-500 hover:scale-105 hover:bg-purple-500/20 px-6 py-3 rounded-xl font-semibold transition duration-300">
-    Contact Me
-  </button>
+<a
+  href="#contact"
+  className="border border-purple-500 hover:scale-105 hover:bg-purple-500/20 px-6 py-3 rounded-xl font-semibold transition duration-300"
+>
+  Contact Me
+</a>
 
  <a
   href="/resume.pdf"
@@ -87,17 +95,16 @@ function App() {
         </div>
 
         {/* Right Side Glow */}
-        <div className="relative mt-16 md:mt-0">
+<div className="relative mt-16 md:mt-0">
 
-          <div className="w-72 h-72 md:w-96 md:h-96 bg-purple-600 rounded-full blur-3xl opacity-30 absolute"></div>
+  <div className="w-72 h-72 md:w-96 md:h-96 bg-purple-600 rounded-full blur-3xl opacity-30 absolute"></div>
 
-          <img
-            src="https://i.pinimg.com/736x/41/65/7b/41657b30cb1caa8c2a5d5f3f4a3d7b5.jpg"
-            alt="profile"
-          className="relative w-72 md:w-96 rounded-3xl border border-purple-500/30 hover:scale-105 transition duration-500"          />
+  <img
+    src={profilePic}
+    alt="profile"
+className="relative w-72 h-72 md:w-96 md:h-96 object-cover rounded-3xl border border-purple-500/30 hover:scale-105 transition duration-500 shadow-2xl shadow-purple-500/20"  />
 
-        </div>
-
+</div>
       </section>
 {/* About Section */}
 
