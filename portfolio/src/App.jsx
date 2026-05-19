@@ -433,20 +433,6 @@ className="bg-white/5 border border-white/10 rounded-xl p-4 text-center backdrop
         </p>
 
       </div>
-
-      {/* Phone */}
-      <div className="bg-purple-500/10 border border-purple-500/20 rounded-2xl p-6">
-
-        <h4 className="text-xl font-semibold text-purple-300 mb-2">
-          Phone
-        </h4>
-
-        <p className="text-gray-300">
-          +91 7842321812
-        </p>
-
-      </div>
-
       {/* LinkedIn */}
       <div className="bg-purple-500/10 border border-purple-500/20 rounded-2xl p-6">
 
